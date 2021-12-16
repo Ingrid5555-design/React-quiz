@@ -1,38 +1,68 @@
 .App {
   text-align: center;
+  font-family: Arial;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* The list of options */
+.options {
+  padding: 8px;
+  border: 2px solid black;
+  cursor: pointer;
+  width: 100%;
+  background-color: white;
+  color: steelblue;
+  font-weight: bold;
+  border-radius: 7px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.selected {
+  background-color: rgb(180, 180, 206);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*.options:hover {
+  background-color: rgb(219, 168, 72);
+}*/
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin: 5px;
+}
+
+.finalTemplate h1 {
+  margin-left: 35px;
+}
+
+.finalTemplate h4 {
+  margin-left: 190px;
+}
+
+body {
+  height: 500px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Segoe UI';
+  font-size: 18px;
+  background-color: teal;
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 1024px) {
+  body {
+    background-color: rgb(158, 119, 119);
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 768px) {
+  body {
+    background-color: grey;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.image {
+  width: 60%;
+  margin-top: -60px;
+  margin-bottom: 10px;
 }

@@ -1,0 +1,36 @@
+.selected {
+  background-color: rgb(180, 180, 206);
+}
+
+.finish-button {
+  padding: 0.5rem 1rem;
+  background: white;
+  font-size: 1rem;
+  font-family: Arial;
+  color: steelblue;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.finish-button:hover {
+  background: rgb(180, 180, 206);
+}
+
+.next-button {
+  padding: 0.5rem 1rem;
+  background: white;
+  font-size: 1rem;
+  font-family: Arial;
+  color: steelblue;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.next-button:hover {
+  background: rgb(180, 180, 206);
+}
+
+/*.result-wrapper {
+    display: flex;
+    justify-content: center;
+    }*/

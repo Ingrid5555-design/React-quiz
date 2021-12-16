@@ -1,0 +1,33 @@
+.title {
+  padding: 2rem 0;
+  text-align: center;
+  /*background: rgb(236, 197, 197);*/
+  font-size: 3rem;
+  font-style: oblique;
+  color: white;
+  /*text-shadow: 2px 2px 5px grey;*/
+  border-radius: 10px;
+}
+
+/* Start section */
+
+.start-wrapper {
+  text-align: center; /*centruoja start div esancius items*/
+}
+
+.start-button {
+  padding: 1rem 3rem;
+  background: teal;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  font-family: Arial;
+  font-style: oblique;
+  color: white;
+  font-weight: bold;
+  /*text-shadow: 2px 2px 5px black;*/
+}
+
+.start-button:hover {
+  background: rgb(180, 180, 206);
+}

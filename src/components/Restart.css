@@ -1,0 +1,14 @@
+.restart-button {
+    margin-left: 265px;
+    padding: 0.5rem 1rem;
+    background: white;
+    font-size: 1rem;
+    border-radius: 7px;
+    font-family: Arial;
+    color: steelblue;
+    font-weight: bold;
+  }
+  
+  .restart-button:hover {
+    background: rgb(180, 180, 206);
+  }
